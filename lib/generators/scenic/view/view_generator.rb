@@ -80,7 +80,7 @@ module Scenic
       end
 
       def views_directory_path
-        @views_directory_path ||= Rails.root.join("db", "views")
+        @views_directory_path ||= Jets.root.join("db", "views")
       end
 
       def version_regex

@@ -15,7 +15,7 @@ module Scenic
     end
 
     def full_path
-      Rails.root.join(path)
+      Jets.root.join(path)
     end
 
     def path
