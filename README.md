@@ -2,4 +2,12 @@
 
 Version of Scenic gem for Ruby on Jets
 
-u need to add Scenic.load to your initializer
+add this initializer to your initializers folder
+```ruby
+# frozen_string_literal: true
+
+require 'scenic'
+
+Scenic.load
+
+```
